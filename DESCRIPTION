@@ -1,0 +1,20 @@
+Package: SA24204163
+Type: Package
+Title: change point detection based on complex networks and visibility graphs
+Version: 0.1.0
+Author: KaiLi Wang
+Maintainer: KaiLi Wang <3235399140@qq.com>
+Description: we firstly utilize the Visibility graph algorithm proposed by Lacasa et al. to trans
+ form a time series into a complex network, and then use the Backward Degree method proposed by
+ Charakopoulos et al. to identify the change points of the time series.
+License: GPL(>=2)
+Imports: Rcpp,cpm,ggplot2,igraph,matrixProfile,zoo,lpSolve,bootstrap,microbenchmark,DAAG,twosamples,boot,mvtnorm,stats,MASS
+Suggests: knitr,rmarkdown
+VignetteBuilder: knitr
+LazyData: true
+LinkingTo: Rcpp
+NeedsCompilation: yes
+RoxygenNote:7.2.3
+Encoding: UTF-8
+URL: http://github.com/wkl122/SA24204163
+BugReports: http://github.com/wkl122/SA24204163/issues
