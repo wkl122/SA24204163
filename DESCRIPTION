@@ -8,7 +8,7 @@ Description: we firstly utilize the Visibility graph algorithm proposed by Lacas
  form a time series into a complex network, and then use the Backward Degree method proposed by
  Charakopoulos et al. to identify the change points of the time series.
 License: GPL(>=2)
-Imports: Rcpp,cpm,ggplot2,igraph,matrixProfile,zoo,lpSolve,bootstrap,microbenchmark,DAAG,twosamples,boot,mvtnorm,stats,MASS
+Imports: Rcpp,cpm,ggplot2,igraph,zoo,lpSolve,bootstrap,microbenchmark,DAAG,twosamples,boot,mvtnorm,stats,MASS
 Suggests: knitr,rmarkdown
 VignetteBuilder: knitr
 LazyData: true

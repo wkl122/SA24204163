@@ -1,4 +1,3 @@
-library(matrixProfile)
 library(zoo)
 library(ggplot2)
 library(cpm)
@@ -240,7 +239,6 @@ changepoint<-function(D,ni,increase,m=250){
 #   x<-c(x,rnorm(1,0,0.3))
 # }
 # changepoint(x,9,1)
-#' @import matrixProfile
 #' @import Rcpp
 #' @import microbenchmark
 #' @import DAAG
